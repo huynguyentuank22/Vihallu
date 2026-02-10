@@ -1,0 +1,17 @@
+adapters/
+
+checkpoints/
+
+models/
+
+.vscode/
+
+data
+
+notebooks/*
+!notebooks/evaluate_models.ipynb
+
+scripts/*
+!scripts/qwen.py
+!scripts/load_and_inference.py
+
