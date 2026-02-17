@@ -1,0 +1,103 @@
+{
+  "total": 2690,
+  "total_valid": 1969,
+  "coverage_pct": 73.2,
+  "bucket_coverage": {
+    "A": {
+      "total": 672,
+      "valid": 512,
+      "coverage_pct": 76.19
+    },
+    "B": {
+      "total": 638,
+      "valid": 404,
+      "coverage_pct": 63.32
+    },
+    "C": {
+      "total": 690,
+      "valid": 590,
+      "coverage_pct": 85.51
+    },
+    "D": {
+      "total": 690,
+      "valid": 463,
+      "coverage_pct": 67.1
+    }
+  },
+  "invalid_reason_histogram": {
+    "A": {
+      "no_change": 33,
+      "minimality_fail_tok(tok=27)": 11,
+      "minimality_fail_tok(tok=31)": 9,
+      "minimality_fail_tok(tok=28)": 9,
+      "minimality_fail_sent(sent=2)": 8,
+      "minimality_fail_tok(tok=26)": 8,
+      "minimality_fail_tok(tok=34)": 8,
+      "minimality_fail_tok(tok=30)": 8,
+      "minimality_fail_tok(tok=33)": 6,
+      "minimality_fail_tok(tok=39)": 5,
+      "minimality_fail_tok(tok=29)": 5,
+      "bucket_A_sentence_change(-1)": 5,
+      "minimality_fail_tok(tok=32)": 5,
+      "minimality_fail_sent(sent=3)": 5,
+      "minimality_fail_tok(tok=40)": 4,
+      "minimality_fail_tok(tok=53)": 3,
+      "minimality_fail_tok(tok=36)": 3,
+      "minimality_fail_tok(tok=41)": 3,
+      "minimality_fail_tok(tok=35)": 3,
+      "minimality_fail_tok(tok=38)": 2,
+      "minimality_fail_tok(tok=42)": 2,
+      "json_parse_fail_after_retry": 2,
+      "bucket_A_uses_only_context_facts_false": 2,
+      "minimality_fail_sent(sent=5)": 2,
+      "minimality_fail_tok(tok=87)": 1,
+      "minimality_fail_tok(tok=37)": 1,
+      "minimality_fail_tok(tok=67)": 1,
+      "minimality_fail_sent(sent=6)": 1,
+      "minimality_fail_tok(tok=50)": 1,
+      "minimality_fail_tok(tok=51)": 1,
+      "minimality_fail_tok(tok=54)": 1,
+      "bucket_A_sentence_change(1)": 1,
+      "minimality_fail_tok(tok=43)": 1
+    },
+    "B": {
+      "bucket_B_sentence_change_not_minus1(0)": 204,
+      "bucket_B_not_deletion": 12,
+      "B_would_delete_everything": 7,
+      "B_single_clause_cannot_delete": 7,
+      "minimality_fail_sent(sent=-2)": 3,
+      "B_clause_index_oob(2/2)": 1
+    },
+    "C": {
+      "minimality_fail_tok(tok=17)": 14,
+      "minimality_fail_tok(tok=18)": 12,
+      "no_change": 10,
+      "minimality_fail_tok(tok=19)": 10,
+      "minimality_fail_tok(tok=20)": 8,
+      "minimality_fail_tok(tok=24)": 8,
+      "minimality_fail_tok(tok=16)": 7,
+      "minimality_fail_tok(tok=21)": 6,
+      "bucket_C_not_append_only": 6,
+      "minimality_fail_tok(tok=22)": 5,
+      "bucket_C_sentence_change_not_1(0)": 4,
+      "minimality_fail_tok(tok=25)": 3,
+      "minimality_fail_tok(tok=27)": 2,
+      "minimality_fail_tok(tok=23)": 2,
+      "minimality_fail_tok(tok=29)": 1,
+      "minimality_fail_sent(sent=2)": 1,
+      "minimality_fail_tok(tok=28)": 1
+    },
+    "D": {
+      "D_target_not_in_response": 96,
+      "bucket_D_no_contradiction": 84,
+      "D_replacement_same_as_target": 18,
+      "D_replacement_too_long(6)": 12,
+      "D_replacement_too_long(7)": 5,
+      "D_replacement_too_long(9)": 4,
+      "D_replacement_too_long(8)": 3,
+      "D_sentence_change_from_replace(1)": 2,
+      "D_replacement_too_long(11)": 2,
+      "D_replacement_too_long(13)": 1
+    }
+  }
+}

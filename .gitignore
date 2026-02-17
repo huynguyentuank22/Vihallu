@@ -6,12 +6,8 @@ models/
 
 .vscode/
 
-data
+data/*.csv
 
-notebooks/*
-!notebooks/evaluate_models.ipynb
+tmp/
 
-scripts/*
-!scripts/qwen.py
-!scripts/load_and_inference.py
-
+__pycache__/
