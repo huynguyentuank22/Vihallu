@@ -1,6 +1,6 @@
 <!-- # Divide and Conquer: A Mixture-of-LoRA-Experts Approach for Efficient Hallucination Detection in Vietnamese LLMs -->
 
-# Counterfactual Explanations for Vietnamese Hallucination Detection: Minimal Faithfulness Repairs with Security-Aware Robustness
+# Accuracy Is Not Enough: Counterfactual Robustness Analysis for Vietnamese Hallucination Detection
 
 ## 📋 Overview
 
@@ -226,8 +226,8 @@ We use the **UIT-ViHallu** dataset for training and evaluation:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/UIT-ViHallu.git
-cd UIT-ViHallu
+git clone https://github.com/huynguyentuank22/Vihallu.git
+cd Vihallu
 
 # Install dependencies
 pip install -r requirements.txt
@@ -269,11 +269,17 @@ UIT-ViHallu/
 If you use this work in your research, please cite:
 
 ```bibtex
-@article{vihallu2026,
-  title={Counterfactual Explanations for Vietnamese Hallucination Detection: Minimal Faithfulness Repairs with Security-Aware Robustness},
-  author={Your Name},
-  journal={arXiv preprint},
-  year={2026}
+@InProceedings{10.1007/978-3-032-37933-7_22,
+  author    = {Nguyen, Tuan-Huy and Ngo, Tan-Nguyen and Tran, Quang-Anh-Kiet and Tran, Huynh-Dai-Nhan and Trinh, Manh-Hung and Pham, Hoang-Anh},
+  editor    = {Nguyen, Ngoc Thanh and Iliadis, Lazaros and Kozierkiewicz, Adrianna and Papaleonidas, Antonios and Vossen, Gottfried and Treur, Jan},
+  title     = {Accuracy is not Enough: Counterfactual Robustness Analysis for Vietnamese Hallucination Detection},
+  booktitle = {Advances in Computational Collective Intelligence},
+  year      = {2027},
+  publisher = {Springer Nature Switzerland},
+  address   = {Cham},
+  pages     = {331--345},
+  isbn      = {978-3-032-37933-7},
+  doi       = {10.1007/978-3-032-37933-7_22}
 }
 ```
 
@@ -291,4 +297,4 @@ For questions or collaborations, please contact: [your.email@example.com]
 
 ---
 
-**Last Updated**: February 2026
+**Last Updated**: November 2026
